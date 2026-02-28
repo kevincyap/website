@@ -1,0 +1,16 @@
+[
+  {
+    "title": "What is the nardnet?",
+    "date": "2026-02-26",
+    "excerpt": "A collection of very intellectual websites",
+    "url": "posts/nardnet.html",
+    "readMoreLabel": "Read post →"
+  },
+  {
+    "title": "Blog progress",
+    "date": "2026-02-26 to 2026-02-26",
+    "excerpt": "Progress on the blog of all time",
+    "url": "posts/blogprogress.html",
+    "readMoreLabel": "Read post →"
+  }
+]
