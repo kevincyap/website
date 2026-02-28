@@ -25,6 +25,20 @@ export const posts = [
         ],
       },
     ],
+  },
+  {
+    slug: 'unicorn',
+    title: 'Unicorns Evolving Too Fast???',
+    date: '2026-02-27',
+    excerpt: 'First it was a unicorn, now it has wings???',
+    blocks: [
+      {
+        type: 'image',
+        src: '/images/unicorn.png',
+        alt: 'unicorn',
+        caption: 'Trust me it has wings',
+      }
+    ]
   }
 ]
 
