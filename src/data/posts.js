@@ -1,20 +1,31 @@
 export const posts = [
   {
-    slug: 'welcome',
-    title: 'Welcome to the Blog',
+    slug: 'progress',
+    title: 'Blog Progress',
     date: '2026-02-27',
-    excerpt: 'This is the first post in the MVP blog setup.',
-    content:
-      'This is a bare minimum blog post page. You can now add more posts to src/data/posts.js and they will show up on the homepage.',
-  },
-  {
-    slug: 'second-post',
-    title: 'Second Post',
-    date: '2026-02-27',
-    excerpt: 'A second sample post to confirm list and detail routing.',
-    content:
-      'Routing is wired for /posts/:slug. This keeps the setup simple while still matching a basic blog structure.',
-  },
+    excerpt: 'This is the blog progress',
+    blocks: [
+      {
+        type: 'paragraph',
+        text: 'It\'s not going to hot if imma be honest',
+      },
+      {
+        type: 'image',
+        src: '../../images/cat.jpg',
+        alt: 'Sad cat',
+        caption: 'Hes sad because this demo is balls',
+      },
+      {
+        type: 'cardGrid',
+        cards: [
+          {
+            title: '2026-02-27',
+            text: 'Added some basic content blocks for posts so I dont have to copy stuff',
+          }
+        ],
+      },
+    ],
+  }
 ]
 
 export function getPostBySlug(slug) {
