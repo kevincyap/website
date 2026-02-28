@@ -11,7 +11,7 @@ export const posts = [
       },
       {
         type: 'image',
-        src: '../../images/cat.jpg',
+        src: '/images/cat.jpg',
         alt: 'Sad cat',
         caption: 'Hes sad because this demo is balls',
       },
