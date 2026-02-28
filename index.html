@@ -1,38 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kevin's Blog</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>React App</title>
   </head>
-  <body
-    data-layout="home"
-    data-site-title="Kevin's Blog"
-    data-site-tagline="Suck ma nards"
-    data-posts-data="posts/posts.json"
-  >
-    <main class="container">
-      <section class="posts"></section>
-    </main>
-    <script id="posts-inline-data" type="application/json">
-      [
-        {
-          "title": "What is the nardnet?",
-          "date": "2026-02-26",
-          "excerpt": "A collection of very intellectual websites",
-          "url": "posts/nardnet.html",
-          "readMoreLabel": "Read post →"
-        },
-        {
-          "title": "Blog progress",
-          "date": "2026-02-26 to 2026-02-26",
-          "excerpt": "Progress on the blog of all time",
-          "url": "posts/blogprogress.html",
-          "readMoreLabel": "Read post →"
-        }
-      ]
-    </script>
-    <script src="template.js"></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
